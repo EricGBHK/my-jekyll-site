@@ -1,8 +1,13 @@
-markdown
-
 ---
-layout: home
-title: Welcome
+layout: default
+title: About
 ---
 
-Hello from GitHub Pages!
+# Hello I am Eric
+
+I am a scientist, writer, etc.
+
+You can find me on:
+
+- [GitHub](https://github.com/EricGBHK)
+- [Email](whk0527@gmail.com)
