@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Home
 ---
 
 # Hello I am Eric
