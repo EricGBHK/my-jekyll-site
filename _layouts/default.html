@@ -12,13 +12,14 @@
       <h1 class="logo"><a href="{{ '/' | relative_url }}">Tom MacWright</a></h1>
       <nav>
         <ul>
-          <li><a href="#">Writing</a></li>
-          <li><a href="#">Reading</a></li>
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Drawings</a></li>
-          <li><a href="#">Micro</a></li>
-          <li><a href="#">About</a></li>
+          {% assign cats = "writing,reading,photos,projects,drawings,micro,about" | split: "," %}
+          {% for c in cats %}
+            <li>
+              <a href="{{ '/' | append: c | append: '/' | relative_url }}">
+                {{ c | capitalize }}
+              </a>
+            </li>
+          {% endfor %}
         </ul>
       </nav>
     </aside>

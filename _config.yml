@@ -1,2 +1,4 @@
-title: My GitHub Jekyll Site
-theme: minima
+title: Eric Chan
+theme: ""        # no gem‑theme
+collections:     # disable Jekyll collections if you like; we use data files
+  # (optional if you prefer using _posts/categories instead)

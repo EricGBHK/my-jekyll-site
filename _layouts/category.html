@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+{% assign list = site.data.items[page.category] %}
+{% if page.category == "photos" or page.category == "drawings" %}
+  <div class="grid-images">
+    {% for img in list %}
+      <a href="{{ img.url }}"><img src="{{ img.src }}" alt=""></a>
+    {% endfor %}
+  </div>
+{% else %}
+  <div class="two-col">
+    <ul class="titles">
+      {% for item in list %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+    <ul class="dates">
+      {% for item in list %}
+        <li>{{ item.date }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

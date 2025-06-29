@@ -1,0 +1,29 @@
+# _data/items.yml
+writing:
+  - title: “Recently”
+    date: 2025‑06‑06
+    url: “/writing/recently”
+  - title: “Making a custom porteur bag”
+    date: 2025‑05‑18
+    url: “/writing/porteur-bag”
+  # …more…
+reading:
+  - title: “Things Become Other Things”
+    author: “Craig Mod”
+    date: 2025‑06‑29
+    stars: 5
+    url: “/reading/things-become-other-things”
+  # …more…
+photos:
+  - src: “/assets/images/photo1.jpg”
+    url: “/photos/2025-06-01”
+  # …more…
+drawings:
+  - src: “/assets/images/draw1.jpg”
+    url: “/drawings/bob-ross”
+  # …more…
+micro:
+  - title: “The election”
+    date: 2025‑06‑26
+    url: “/micro/election”
+  # …more…
