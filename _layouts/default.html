@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <header>
-        {% include header.html %}
-    </header>
-    <main>
-        {{ content }}
+  <div class="container">
+    <aside class="sidebar">
+      <h1 class="logo"><a href="{{ '/' | relative_url }}">Tom MacWright</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#">Writing</a></li>
+          <li><a href="#">Reading</a></li>
+          <li><a href="#">Photos</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Drawings</a></li>
+          <li><a href="#">Micro</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content">
+      {{ content }}
     </main>
-    <footer>
-        {% include footer.html %}
-    </footer>
+  </div>
 </body>
 </html>

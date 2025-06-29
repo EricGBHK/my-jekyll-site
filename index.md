@@ -2,45 +2,102 @@
 layout: default
 title: Home
 ---
-<section class="section">
-    <h1>Writing</h1>
-    <ul>
-        <li><a href="/writing/recently">Recently</a> - 2025-06-06</li>
-        <li><a href="/writing/making-a-custom-porter-bag">Making a custom porter bag</a> - 2025-05-18</li>
-        <li><a href="/writing/reading-zanzibar">Reading Zanzibar</a> - 2025-05-02</li>
+
+<section class="section writing">
+  <h2>Writing →</h2>
+  <div class="two-col">
+    <ul class="titles">
+      <li>Recently</li>
+      <li>Making a custom porteur bag</li>
+      <li>Reading Zanzibar</li>
+      <li>Recently</li>
+      <li>Tidbyt without the company</li>
+      <li>Recently</li>
+      <li>Personal tools</li>
+      <li>Introducing the blogroll</li>
+      <li>Recently</li>
+      <li>Recently</li>
     </ul>
-</section>
-
-<section class="section">
-    <h1>Micro</h1>
-    <ul>
-        <li><a href="/micro/putting-an-unstructured-layer-of-chatbot-ai">Putting an unstructured layer of Chatbot AI...</a> - 2025-05-29</li>
-        <li><a href="/micro/nyc-primaries-june-21">NYC Primaries June 21 - I don’t rank Cuomo, vote for everyone else</a> - 2025-05-28</li>
+    <ul class="dates">
+      <li>2025‑06‑06</li>
+      <li>2025‑05‑18</li>
+      <li>2025‑05‑02</li>
+      <li>2025‑05‑01</li>
+      <li>2025‑04‑12</li>
+      <li>2025‑04‑07</li>
+      <li>2025‑04‑03</li>
+      <li>2025‑03‑07</li>
+      <li>2025‑03‑01</li>
+      <li>2025‑02‑04</li>
     </ul>
+  </div>
 </section>
 
-<section class="section">
-    <h1>Photos</h1>
-    <div class="photo-grid">
-        <img src="/assets/images/photo1.jpg" alt="Photo 1">
-        <img src="/assets/images/photo2.jpg" alt="Photo 2">
-        <img src="/assets/images/photo3.jpg" alt="Photo 3">
-    </div>
-</section>
-
-<section class="section">
-    <h1>Drawings</h1>
-    <div class="photo-grid">
-        <img src="/assets/images/drawing1.jpg" alt="Drawing 1">
-        <img src="/assets/images/drawing2.jpg" alt="Drawing 2">
-        <img src="/assets/images/drawing3.jpg" alt="Drawing 3">
-    </div>
-</section>
-
-<section class="section">
-    <h1>Reading</h1>
-    <ul>
-        <li><a href="/reading/glass-century">Glass Century</a> - Ross Barkan - 2025-06-21</li>
-        <li><a href="/reading/careless-people">Careless People</a> - Sarah Klein-Williams - 2025-04-06</li>
+<section class="section micro">
+  <h2>Micro →</h2>
+  <div class="two-col">
+    <ul class="titles">
+      <li>The election</li>
+      <li>Putting an untrusted layer…</li>
+      <li>NYC Primaries June 24…</li>
+      <li>Blog micro‑optimization</li>
+      <li>LeaderKey.app is a very good launcher</li>
     </ul>
+    <ul class="dates">
+      <li>2025‑06‑26</li>
+      <li>2025‑05‑29</li>
+      <li>2025‑05‑28</li>
+      <li>2025‑05‑22</li>
+      <li>2025‑05‑20</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section photos">
+  <h2>Photos →</h2>
+  <div class="grid‑images">
+    <img src="/assets/images/photo1.jpg" alt="">
+    <img src="/assets/images/photo2.jpg" alt="">
+    <img src="/assets/images/photo3.jpg" alt="">
+    <img src="/assets/images/photo4.jpg" alt="">
+    <img src="/assets/images/photo5.jpg" alt="">
+  </div>
+</section>
+
+<section class="section drawings">
+  <h2>Drawings →</h2>
+  <div class="grid‑images">
+    <img src="/assets/images/draw1.jpg" alt="">
+    <img src="/assets/images/draw2.jpg" alt="">
+    <img src="/assets/images/draw3.jpg" alt="">
+    <img src="/assets/images/draw4.jpg" alt="">
+    <img src="/assets/images/draw5.jpg" alt="">
+  </div>
+</section>
+
+<section class="section reading">
+  <h2>Reading →</h2>
+  <div class="three-col">
+    <ul class="titles">
+      <li>Things Become Other Things</li>
+      <li>Glass Century</li>
+      <li>Abundance</li>
+      <li>Careless People</li>
+      <li>Land is a Big Deal</li>
+    </ul>
+    <ul class="authors">
+      <li>Craig Mod</li>
+      <li>Ross Barkan</li>
+      <li>Ezra Klein…</li>
+      <li>Sarah Wynn‑Williams</li>
+      <li>Lars A. Doucet</li>
+    </ul>
+    <ul class="meta">
+      <li>2025‑06‑29 ★★★★★</li>
+      <li>2025‑06‑21 ★★★★★</li>
+      <li>2025‑05‑16 ★★★</li>
+      <li>2025‑04‑06 ★★★★</li>
+      <li>2025‑03‑22 ★★★★</li>
+    </ul>
+  </div>
 </section>
