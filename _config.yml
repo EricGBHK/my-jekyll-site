@@ -1,4 +1,13 @@
-title: Eric Chan
-theme: ""        # no gem‑theme
-collections:     # disable Jekyll collections if you like; we use data files
-  # (optional if you prefer using _posts/categories instead)
+title: Eric
+description: Personal site
+baseurl: "" # for user/organization sites
+url: "https://ericgbhk.github.io/"
+
+# ⚠️ DO NOT include this:
+# theme: ""
+
+# Optional: include directories if needed
+include:
+  - _pages
+  - _data
+  - assets
